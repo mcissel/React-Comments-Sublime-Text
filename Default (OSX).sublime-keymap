@@ -1,0 +1,14 @@
+[
+    {
+        "keys": ["super+forward_slash"],
+        "command": "react_comments",
+        "context": [
+            {
+                "key": "selector",
+                "operator": "equal",
+                "operand": "meta.jsx.js, meta.embedded.expression.jsx",
+                "match_all": true
+            }
+        ],
+    },
+]
