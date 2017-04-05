@@ -34,5 +34,5 @@ def addComments(self, edit, line):
 
 def removeComments(self, edit, region):
   regionStr = self.view.substr(region)
-  uncommented = regionStr.replace("{/* ", "").replace("*/}", "")
+  uncommented = regionStr.replace("{/* ", "").replace(" */}", "")
   self.view.replace(edit, region, uncommented)
