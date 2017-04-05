@@ -13,7 +13,7 @@ Usage
 ============
 
 Toggle on and off the `{/*` and `*/}` style JSX comments. Pretty basic.
-
+![](http://mcissel.net/wp-content/uploads/2017/04/reactComment.gif)
 
 Keybindings
 ============
